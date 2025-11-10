@@ -1,4 +1,4 @@
-public class ProductSales implements ProductSalesInterface {
+public class Q1ProductSales implements Q1ProductSalesInterface {
 
     @Override
     public int TotalSales(int[][] productSales) {

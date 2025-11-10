@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 import static org.junit.jupiter.api.Assertions.*;
 
 @RunWith(Enclosed.class)
-public class TestUnits{
+public class Q2TestUnits{
 
 public static class ProductSalesTest {
 
@@ -16,7 +16,7 @@ public static class ProductSalesTest {
                 {300, 150, 700}, // 700 > 500
                 {250, 200, 600}  // 600 > 500
         };
-        ProductSales productSales = new ProductSales(testData, 500);
+        Q2ProductSales productSales = new Q2ProductSales(testData, 500);
 
         // Act
         int overLimit = productSales.GetSalesOverLimit();
@@ -32,7 +32,7 @@ public static class ProductSalesTest {
                 {300, 150, 700}, // 300 < 500, 150 < 500
                 {250, 200, 600}  // 250 < 500, 200 < 500
         };
-        ProductSales productSales = new ProductSales(testData, 500);
+        Q2ProductSales productSales = new Q2ProductSales(testData, 500);
 
         // Act
         int underLimit = productSales.GetSalesUnderLimit();
@@ -48,7 +48,7 @@ public static class ProductSalesTest {
                 {300, 150, 700},
                 {250, 200, 600}
         };
-        ProductSales productSales = new ProductSales(testData, 500);
+        Q2ProductSales productSales = new Q2ProductSales(testData, 500);
 
         // Act
         int total = productSales.GetTotalSales();
@@ -64,7 +64,7 @@ public static class ProductSalesTest {
                 {300, 150, 700},
                 {250, 200, 600}
         };
-        ProductSales productSales = new ProductSales(testData, 500);
+        Q2ProductSales productSales = new Q2ProductSales(testData, 500);
 
         // Act
         double average = productSales.GetAverageSales();
@@ -80,7 +80,7 @@ public static class ProductSalesTest {
                 {300, 150, 700},
                 {250, 200, 600}
         };
-        ProductSales productSales = new ProductSales(testData, 500);
+        Q2ProductSales productSales = new Q2ProductSales(testData, 500);
 
         // Act
         int yearsProcessed = productSales.GetProductsProcessed();

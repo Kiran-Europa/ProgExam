@@ -1,4 +1,4 @@
- public interface iProductSales {
+ public interface Q2iProductSales {
         int[][] GetProductsales();
         int GetTotalSales();
         int GetSalesOverLimit();

@@ -1,14 +1,14 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class TestUnits {
+public class Q1TestUnits {
 
     private final int[][] testSalesData = {
             {300, 150, 700},
             {250, 200, 600}
     };
 
-    private final ProductSales productSales = new ProductSales();
+    private final Q1ProductSales productSales = new Q1ProductSales();
 
     @Test
     public void CalculateTotalSales_ReturnsTotalSales() {

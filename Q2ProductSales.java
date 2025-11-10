@@ -1,8 +1,8 @@
-    public class ProductSales implements iProductSales {
+    public class Q2ProductSales implements Q2iProductSales {
         private int[][] productSales;
         private int salesLimit;
 
-        public ProductSales(int[][] salesData, int salesLimit) {
+        public Q2ProductSales(int[][] salesData, int salesLimit) {
             this.productSales = salesData;
             this.salesLimit = salesLimit;
         }

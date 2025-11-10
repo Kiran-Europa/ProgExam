@@ -4,13 +4,13 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
 
-public class Main extends JFrame {
+public class Q2Main extends JFrame {
     private JTextArea textArea;
     private JLabel yearsProcessedLabel;
-    private ProductSales productSales;
+    private Q2ProductSales productSales;
     private static final int SALES_LIMIT = 500;
 
-    public Main() {
+    public Q2Main() {
         initializeUI();
     }
 
@@ -95,7 +95,7 @@ public class Main extends JFrame {
                 {250, 200, 600}  // Year 2: Microphone, Speakers, Mixing Desk
         };
 
-        productSales = new ProductSales(salesData, SALES_LIMIT);
+        productSales = new Q2ProductSales(salesData, SALES_LIMIT);
 
         // Display data in text area
         displaySalesData(salesData);
@@ -162,7 +162,7 @@ public class Main extends JFrame {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            new Main().setVisible(true);
+            new Q2Main().setVisible(true);
         });
     }
 }

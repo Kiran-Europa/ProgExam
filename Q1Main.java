@@ -1,11 +1,11 @@
-public class Main {
+public class Q1Main {
     public static void main(String[] args) {
         int[][] salesData = {
                 {300, 150, 700},
                 {250, 200, 600}
         };
 
-        ProductSales productSales = new ProductSales();
+        Q1ProductSales productSales = new Q1ProductSales();
 
         // Generates the report
         System.out.println("PRODUCT SALES REPORT - 2025");
